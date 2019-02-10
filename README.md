@@ -16,7 +16,7 @@ Dataset for this project can be found by this link --> https://www.kaggle.com/c/
 * Based on the fare the missing Embarked was replaced.
 * Replaced missing Embarked value with E if the fare was above 50.
 * Replaced missing Embarked value with C if the fare was above 25 and below 50.
-* Replaced missing Embarked value with Q if the fare was belwo 25.
+* Replaced missing Embarked value with Q if the fare was below 25.
 
 ### Cabin
 * Since cabin values have a lot of missing values, it can be ignored.
