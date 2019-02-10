@@ -31,14 +31,14 @@ Dataset for this project can be found by this link --> https://www.kaggle.com/c/
 * Encoded the value of Embarked.
 
 ### Name titles
-* Name by itself if not an important feature.
+* Name by itself is not an important feature.
 * So, it's split to get the title of the name.
 * It is then encoded based on the probability of their survival. The one with highest probability is given higher value.
 
 ### Tickets
 * Generating feature from Ticket.
 * The first letter of the ticket is used if letter is present else NA. 
-* Encode the letters.
+* Encoded the letters.
 
 ### Family count
 * Generated feature for family count using parch and sibsp.
@@ -50,7 +50,7 @@ Dataset for this project can be found by this link --> https://www.kaggle.com/c/
 * Performed cross validation using the train data to find the best 'c' and 'gamma' value for SVM.
 
 ## Model
-* Used SVM for with the best parameters achieved in Cross Validation.
+* Used SVM with the best parameters achieved in Cross Validation.
 
 ## Score
-* This approach give a score of 80.3% accuracy.
+* This approach gave a score of 80.3% accuracy.
